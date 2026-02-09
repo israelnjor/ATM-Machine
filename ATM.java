@@ -7,14 +7,21 @@ public class ATM {
   private double withdrawnToday;
 
 
-public ATM(String username, int accountNumber, int pin, double balance, double dailyLimit, double withdrawnToday) {
-  this.username = username;
-  this.accountNumber = accountNumber;
-  this.pin = pin;
-  this.balance = balance;
-  this.dailyLimit = dailyLimit;
-  this.withdrawnToday = withdrawntoday;
-}
+  public ATM(String username, int accountNumber, int pin, double balance, double dailyLimit, double withdrawnToday) {
+    this.username = username;
+    this.accountNumber = accountNumber;
+    this.pin = pin;
+    this.balance = balance;
+    this.dailyLimit = dailyLimit;
+    this.withdrawnToday = withdrawntoday;
+  }
+
+  //GETTER
+  public void getFulldetails() {
+    
+  }
+
+  
 
   
 }
